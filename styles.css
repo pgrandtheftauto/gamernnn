@@ -1,8 +1,7 @@
-.iframe-center-column {
+.itchio-iframe-column {
   display: flex;
   flex-direction: column;
-  align-items: center; /* centers horizontally */
-  justify-content: center; /* centers vertically */
-  min-height: 100vh;   /* fills the whole screen */
-  gap: 20px;           /* space between iframes */
+  align-items: flex-start; /* aligns iframes to the left */
+  gap: 20px; /* space between iframes */
+  margin-left: 0; /* optional: removes left margin, adjust as needed */
 }
