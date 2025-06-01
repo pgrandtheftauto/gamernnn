@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Side by Side Links</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      display: flex;
+      justify-content: flex-start; /* Aligns content at the start of the page (left) */
+      align-items: flex-start; /* Aligns the items at the top of the page */
+      height: 100vh;
+    }
+    .box {
+      display: block;
+      width: 553px;
+      height: 167px;
+      text-align: center;
+      margin-right: 20px; /* Adds spacing between the elements */
+    }
+    .box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .link {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      margin-top: 10px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <!-- First Box (Discord Link) -->
+  <div class="box">
+    <a href="https://discord.gg/pxf8FXm4tA" target="_blank">
+      <img src="discord.jpg" alt="Discord Image">
+      <span class="link">Join our Discord!</span>
+    </a>
+  </div>
+
+  <!-- Second Box (PS3 Download Link) -->
+  <div class="box">
+    <a href="https://gamernnn.neocities.org/PS3/4.92/" target="_blank">
+      <img src="ps3492.png" alt="PS3 4.92 Image">
+      <span class="link">Download Here!</span>
+    </a>
+  </div>
+</body>
+</html>
 
