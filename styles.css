@@ -1,0 +1,8 @@
+.iframe-center-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers horizontally */
+  justify-content: center; /* centers vertically */
+  min-height: 100vh;   /* fills the whole screen */
+  gap: 20px;           /* space between iframes */
+}
