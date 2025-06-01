@@ -5,3 +5,43 @@
   gap: 20px; /* space between iframes */
   margin-left: 0; /* optional: removes left margin, adjust as needed */
 }
+
+
+.right-link-box {
+  position: fixed;
+  top: 12%;
+  right: 0;
+  width: 15vw;
+  min-width: 160px;
+  max-width: 250px;
+  background: #181818;
+  color: #fff;
+  border-radius: 12px 0 0 12px;
+  padding: 18px 20px 14px 18px;
+  box-shadow: -2px 2px 12px rgba(0,0,0,0.18);
+  z-index: 1000;
+}
+.right-link-box h3 {
+  margin: 0 0 12px 0;
+  font-size: 1.2em;
+  color: #c66608;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.right-link-box ul {
+  padding-left: 18px;
+  margin: 0;
+  list-style-type: square;
+}
+.right-link-box li {
+  margin-bottom: 7px;
+}
+.right-link-box a {
+  color: #ffd700;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.right-link-box a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
