@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GamerNNN — Mobile</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #1a1a1a;
+      color: #fff;
+    }
+    header {
+      background: #222;
+      padding: 1.2rem 0.5rem 0.5rem 0.5rem;
+      text-align: center;
+    }
+    .logo-img {
+      max-width: 120px;
+      width: 60vw;
+      height: auto;
+      margin-bottom: 0.5rem;
+      pointer-events: none;
+      user-select: none;
+      border-radius: 8px;
+      background: #222;
+    }
+    h1 {
+      font-size: 1.6rem;
+      margin: 0.3rem 0 0.7rem;
+      letter-spacing: 1px;
+    }
+    nav {
+      margin: 0 auto 1.5rem;
+      max-width: 420px;
+    }
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0.7rem;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    nav li {
+      background: #282828;
+      border-radius: 8px;
+      overflow: hidden;
+      font-size: 1.07rem;
+    }
+    nav a {
+      display: block;
+      padding: 0.85rem 1rem;
+      color: #ffd92a;
+      text-decoration: none;
+      transition: background 0.15s, color 0.15s;
+    }
+    nav a:hover,
+    nav a:focus {
+      background: #444;
+      color: #fff;
+    }
+    .donate-btn {
+      display: flex;
+      justify-content: center;
+      margin: 1.2rem 0 0.8rem 0;
+    }
+    .donate-btn input[type="image"] {
+      width: 170px;
+      max-width: 60vw;
+      height: auto;
+      border: none;
+    }
+    main {
+      max-width: 600px;
+      margin: auto;
+      padding: 0 0.7rem 2rem 0.7rem;
+    }
+    .itchio-embeds {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin: 1.7rem 0 0 0;
+    }
+    .itchio-embeds iframe {
+      width: 100%;
+      min-width: 0;
+      max-width: 100vw;
+      height: 115px;
+      border: none;
+      border-radius: 8px;
+      background: #000;
+    }
+    @media (min-width: 600px) {
+      .itchio-embeds iframe {
+        height: 167px;
+      }
+    }
+    footer {
+      text-align: center;
+      color: #888;
+      font-size: 0.97rem;
+      padding: 1.2rem 0 0.7rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="logo-img" src="GAMERNNN.png" alt="GamerNNN logo">
+    <h1>GAMERNNN</h1>
+  </header>
+  <div class="donate-btn">
+    <form action="https://www.paypal.com/donate" method="post" target="_blank">
+      <input type="hidden" name="hosted_button_id" value="YOUR_BUTTON_ID_HERE">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate with PayPal button">
+      <img alt="" src="https://www.paypal.com/en_GR/i/scr/pixel.gif" width="1" height="1">
+    </form>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="https://gamernnn.rf.gd/login" target="_blank" rel="noopener">Login - Signup</a></li>
+      <li><a href="Files.html">Files</a></li>
+      <li><a href="https://gamernnn.itch.io" target="_blank" rel="noopener">Itch.io</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section class="itchio-embeds">
+      <iframe src="https://itch.io/embed/3253234?bg_color=000000&amp;fg_color=c66608&amp;link_color=cd7a2a&amp;border_color=800c0c" title="Game 1"><a href="https://gamernnn.itch.io/">Game 1</a></iframe>
+      <iframe src="https://itch.io/embed/3253187?bg_color=000000&amp;fg_color=e80000&amp;link_color=cc0202&amp;border_color=970000" title="Game 2"><a href="https://gamernnn.itch.io/">Game 2</a></iframe>
+      <iframe src="https://itch.io/embed/3449869?bg_color=000000&amp;fg_color=f31d1d&amp;border_color=780000" title="Game 3"><a href="https://gamernnn.itch.io/racerunner">Game 3</a></iframe>
+      <iframe src="https://itch.io/embed/2583819?bg_color=000000&amp;fg_color=e80f0f&amp;link_color=c80606&amp;border_color=dd0606" title="Game 4"><a href="https://gamernnn.itch.io/">Game 4</a></iframe>
+    </section>
+  </main>
+  <footer>
+   
+  </footer>
+</body>
+</html>
